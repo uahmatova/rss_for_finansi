@@ -7,7 +7,8 @@ from bs4 import BeautifulSoup  # Новая библиотека для парс
 # --- НАСТРОЙКА: список твоих RSS-лент ---
 RSS_SOURCES = [
     "https://permkrai.ru/news/rss.php",
-    "https://v-kurse.ru/rss.xml"
+    "https://v-kurse.ru/rss.xml",
+    "https://zwezda.su/rss"
 ]
 
 # --- ФУНКЦИЯ, которая пытается получить RSS или парсит HTML ---
