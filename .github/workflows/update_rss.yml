@@ -2,8 +2,8 @@ name: Update RSS Feed
 
 on:
   schedule:
-    - cron: '*/30 * * * *'
-  workflow_dispatch:
+    - cron: '*/30 * * * *'  # Каждые 30 минут
+  workflow_dispatch:        # Для ручного запуска
 
 jobs:
   build:
@@ -19,22 +19,17 @@ jobs:
         python-version: '3.10'
 
     - name: Install dependencies
-      run: |
-        pip install feedparser requests beautifulsoup4
+      run: pip install feedparser requests beautifulsoup4
 
     - name: Run RSS merger
       run: python rss_merger.py
 
     - name: Commit and push updated XML file
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
       run: |
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
         git add merged_feed.xml
-        if git diff --staged --quiet; then
-          echo "No changes to commit"
-        else
-          git commit -m "Обновлен RSS-файл"
-          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
-        fi
+        git diff --staged --quiet || git commit -m "Обновлен RSS-файл [skip ci]"
+        git push https://x-access-token:${PAT_TOKEN}@github.com/${{ github.repository }}.git
