@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: '*/30 * * * *'  # Каждые 30 минут
   workflow_dispatch:        # Ручной запуск
+  push:
+    branches:
+      - dev
 
 jobs:
   build:
