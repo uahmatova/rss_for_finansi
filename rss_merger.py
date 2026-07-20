@@ -3,6 +3,8 @@ import requests
 import re
 import time
 from xml.etree import ElementTree as ET
+import os
+VK_TOKEN = os.getenv('VK_TOKEN')
 
 # --- НАСТРОЙКА ---
 VK_GROUPS = [
@@ -33,7 +35,7 @@ VK_GROUPS = [
     'zspermkrai'
 ]
 
-VK_TOKEN = 'd0aba882d0aba882d0aba8829cd39c235edd0abd0aba882b82c14340f4c8b620425b030'
+#VK_TOKEN = 'd0aba882d0aba882d0aba8829cd39c235edd0abd0aba882b82c14340f4c8b620425b030'
 POSTS_PER_GROUP = 30
 DAYS_BACK = 7  # Брать посты только за последние 7 дней
 
