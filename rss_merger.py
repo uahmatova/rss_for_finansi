@@ -29,7 +29,7 @@ VK_GROUPS = [
     'permmfc',
     'mfc_russia',
     'mvd',
-    'tsentr_vyplat,
+    'tsentr_vyplat',
     'mtb_permkrai',
     'umvd_perm',
     'zspermkrai'
