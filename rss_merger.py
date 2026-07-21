@@ -26,11 +26,11 @@ VK_GROUPS = [
     'gosuslugi',
     'permmfc',
     'mfc_russia',
-    'mvd',
     'tsentr_vyplat',
     'mtb_permkrai',
     'umvd_perm',
-    'zspermkrai'
+    'zspermkrai',
+    'mchsprikamia'
 ]
 
 #VK_TOKEN = 'd0aba882d0aba882d0aba8829cd39c235edd0abd0aba882b82c14340f4c8b620425b030'
