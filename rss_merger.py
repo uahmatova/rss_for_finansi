@@ -37,7 +37,18 @@ VK_GROUPS = [
     'sfr.permskiykray',
     'region59_love',
     'rosreestr_59',
-    'tsur59'
+    'tsur59',
+    'minsoc.permkrai',
+    'prokurorpermkrai',
+    'cznpermprof',
+    'public220920611',
+    'gorzelenstrojperm',
+    'directpermkray',
+    'public212257340',
+    'fond59ru',
+    'ksvoperm',
+    '59vol',
+    'club228910426'
 ]
 
 #VK_TOKEN = 'd0aba882d0aba882d0aba8829cd39c235edd0abd0aba882b82c14340f4c8b620425b030'
