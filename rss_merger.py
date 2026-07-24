@@ -49,7 +49,15 @@ VK_GROUPS = [
     'ksvoperm',
     '59vol',
     'club228910426',
-    'pk_59'
+    'pk_59',
+    'upravlyaemvmeste',
+    'mintranspermkrai',
+    'obyasnyaemrf',
+    'dprmsu.permkrai',
+    'mchsprikamia',
+    'dprmsu.permkrai',
+    'idzhpermkrai',
+    'police_59'
 ]
 
 #VK_TOKEN = 'd0aba882d0aba882d0aba8829cd39c235edd0abd0aba882b82c14340f4c8b620425b030'
