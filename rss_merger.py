@@ -30,7 +30,6 @@ VK_GROUPS = [
     'tsur59',
     'prokurorpermkrai',
     'public220920611',
-    'gorzelenstrojperm',
     'directpermkray',
     'public212257340',
     'pk_59',
