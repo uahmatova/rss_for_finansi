@@ -27,7 +27,6 @@ VK_GROUPS = [
     'ufns59',
     'sfr.permskiykray',
     'rosreestr_59',
-    'tsur59',
     'prokurorpermkrai',
     'public220920611',
     'directpermkray',
