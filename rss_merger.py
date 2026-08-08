@@ -8,32 +8,18 @@ VK_TOKEN = os.getenv('VK_TOKEN')
 
 # --- НАСТРОЙКА ---
 VK_GROUPS = [
-    "cozmp59",
-    'rpn_permkrai',
     'mingkh59',
     'mirspk',
-    'fincultinfo',
     'minstroyperm',
-    'cbr_official',
     'gosuslugiforparents',
     'gosuslugi',
-    'permmfc',
     'mtb_permkrai',
-    'umvd_perm',
     'mchsprikamia',
     'minprirodaperm',
-    'cppmsp59',
-    'club193358828',
-    'ufns59',
     'sfr.permskiykray',
     'rosreestr_59',
-    'prokurorpermkrai',
-    'public220920611',
     'directpermkray',
-    'public212257340',
-    'pk_59',
-    'dprmsu.permkrai',
-    'police_59'
+    'pk_59'
 ]
 
 #VK_TOKEN = 'd0aba882d0aba882d0aba8829cd39c235edd0abd0aba882b82c14340f4c8b620425b030'
